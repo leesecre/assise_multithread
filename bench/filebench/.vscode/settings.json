@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stats.h": "c",
+        "multi_client_sync.h": "c",
+        "flowop.h": "c",
+        "eventgen.h": "c",
+        "fileset.h": "c",
+        "ioprio.h": "c",
+        "utils.h": "c"
+    }
+}

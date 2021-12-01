@@ -1,0 +1,155 @@
+SEQ_WRITE throughput: 687.225 MB ,avg_time 1.490ms ,tid: 6, 1037915
+SEQ_WRITE throughput: 687.127 MB ,avg_time 1.490ms ,tid: 5, 1037914
+SEQ_WRITE throughput: 680.441 MB ,avg_time 1.505ms ,tid: 1, 1037910
+SEQ_WRITE throughput: 676.783 MB ,avg_time 1.513ms ,tid: 3, 1037912
+SEQ_WRITE throughput: 674.136 MB ,avg_time 1.519ms ,tid: 2, 1037911
+SEQ_WRITE throughput: 671.982 MB ,avg_time 1.524ms ,tid: 0, 1037909
+[signal_callback():1443] peer recv: |complete |1|1|786459|17300535|0|0|
+[handle_digest_response():1668] |complete |1|1|786459|17300535|0|0|
+[clear_digesting():108] clear log digesting state
+[set_digesting():94] set log digesting state
+[set_digesting():97] stuck in waiting states
+PID: 1037851 show who you are 1037864
+[make_digest_request_async():1554] make_digest_request_sync
+[make_digest_request_sync():1633] |digest |1|1|982175|17300535|15727617|0
+SEQ_WRITE throughput: 351.410 MB ,avg_time 2.914ms ,tid: 7, 1037916
+[signal_callback():1443] peer recv: |complete |1|1|982175|19264885|0|0|
+[handle_digest_response():1668] |complete |1|1|982175|19264885|0|0|
+[clear_digesting():108] clear log digesting state
+[set_digesting():94] set log digesting state
+[make_digest_request_async():1554] make_digest_request_sync
+PID: 1037851 show who you are 1037864
+[make_digest_request_sync():1633] |digest |1|1|164237|19264885|15727617|0
+SEQ_WRITE throughput: 205.520 MB ,avg_time 4.982ms ,tid: 4, 1037913
+
+
+
+[set_digesting():94] set log digesting state
+[make_digest_request_async():1555] make_digest_request_sync
+[set_digesting():97] stuck in waiting states
+[make_digest_request_sync():1639] |digest |1|1|786459|15727617|15727617|0
+[set_digesting():97] stuck in waiting states
+[make_digest_request_async():1555] make_digest_request_sync
+[make_digest_request_async():1557] captured by checker
+[set_digesting():97] stuck in waiting states
+[make_digest_request_async():1555] make_digest_request_sync
+[make_digest_request_async():1557] captured by checker
+[make_digest_request_async():1555] make_digest_request_sync
+[make_digest_request_async():1557] captured by checker
+SEQ_WRITE throughput: 511.048 MB ,avg_time 2.004ms ,tid: 5, 1052380
+SEQ_WRITE throughput: 508.815 MB ,avg_time 2.013ms ,tid: 1, 1052376
+SEQ_WRITE throughput: 508.669 MB ,avg_time 2.013ms ,tid: 2, 1052377
+SEQ_WRITE throughput: 508.421 MB ,avg_time 2.014ms ,tid: 7, 1052382
+SEQ_WRITE throughput: 507.096 MB ,avg_time 2.019ms ,tid: 8, 1052383
+SEQ_WRITE throughput: 504.672 MB ,avg_time 2.029ms ,tid: 0, 1052375
+SEQ_WRITE throughput: 503.082 MB ,avg_time 2.035ms ,tid: 4, 1052379
+SEQ_WRITE throughput: 502.138 MB ,avg_time 2.039ms ,tid: 3, 1052378
+SEQ_WRITE throughput: 501.631 MB ,avg_time 2.041ms ,tid: 6, 1052381
+
+
+SEQ_WRITE throughput: 460.776 MB ,avg_time 2.222ms ,tid: 4, 1051825
+SEQ_WRITE throughput: 460.358 MB ,avg_time 2.224ms ,tid: 9, 1051830
+SEQ_WRITE throughput: 459.565 MB ,avg_time 2.228ms ,tid: 3, 1051824
+SEQ_WRITE throughput: 452.270 MB ,avg_time 2.264ms ,tid: 0, 1051821
+SEQ_WRITE throughput: 451.061 MB ,avg_time 2.270ms ,tid: 6, 1051827
+SEQ_WRITE throughput: 450.129 MB ,avg_time 2.275ms ,tid: 2, 1051823
+SEQ_WRITE throughput: 448.281 MB ,avg_time 2.284ms ,tid: 8, 1051829
+SEQ_WRITE throughput: 447.056 MB ,avg_time 2.291ms ,tid: 5, 1051826
+SEQ_WRITE throughput: 445.036 MB ,avg_time 2.301ms ,tid: 7, 1051828
+[signal_callback():1443] peer recv: |complete |1|1|786463|17300543|0|0|
+[handle_digest_response():1674] |complete |1|1|786463|17300543|0|0|
+[clear_digesting():111] clear log digesting state
+[set_digesting():94] set log digesting state
+[make_digest_request_async():1555] make_digest_request_sync
+[make_digest_request_sync():1639] |digest |1|1|1834979|17300543|15727617|20970494
+SEQ_WRITE throughput: 384.250 MB ,avg_time 2.665ms ,tid: 1, 1051822
+
+
+[tid:1077698][digest_replay_and_optimize():1077] [INODE] inum 2 (ver 0) - create 0
+[tid:1077698][digest_replay_and_optimize():1077] [INODE] inum 150000 (ver 1) - create 0
+[tid:1077698][digest_replay_and_optimize():1077] [INODE] inum 150001 (ver 1) - create 1
+[tid:1077698][digest_replay_and_optimize():1117] [FILE] inum 2 (ver 0) - NOT in Hash 
+[tid:1077698][digest_replay_and_optimize():1077] [INODE] inum 150002 (ver 1) - create 1
+[tid:1077698][digest_replay_and_optimize():1121] [FILE] inum 2 (ver 0) - In Hash 
+[tid:1077698][digest_replay_and_optimize():1077] [INODE] inum 150003 (ver 1) - create 1
+[tid:1077698][digest_replay_and_optimize():1121] [FILE] inum 2 (ver 0) - In Hash 
+[tid:1077698][digest_replay_and_optimize():1117] [FILE] inum 150002 (ver 1) - NOT in Hash 
+[tid:1077698][digest_replay_and_optimize():1117] [FILE] inum 150003 (ver 1) - NOT in Hash 
+[tid:1077698][digest_replay_and_optimize():1117] [FILE] inum 150000 (ver 1) - NOT in Hash 
+[tid:1077698][digest_replay_and_optimize():1117] [FILE] inum 150001 (ver 1) - NOT in Hash 
+
+
+[tid:1077458][digest_replay_and_optimize():1077] [INODE] inum 2 (ver 0) - create 0
+[tid:1077458][digest_replay_and_optimize():1077] [INODE] inum 150000 (ver 1) - create 1
+[tid:1077458][digest_replay_and_optimize():1117] [FILE] inum 2 (ver 0) - NOT in Hash 
+[tid:1077458][digest_replay_and_optimize():1117] [FILE] inum 150000 (ver 1) - NOT in Hash 
+
+
+[tid:1079025][digest_replay_and_optimize():1077] [INODE] inum 2 (ver 0) - create 0
+[tid:1079025][digest_replay_and_optimize():1077] [INODE] inum 150000 (ver 1) - create 1
+[tid:1079025][digest_replay_and_optimize():1117] [FILE] inum 2 (ver 0) - NOT in Hash 
+[tid:1079025][digest_replay_and_optimize():1077] [INODE] inum 150001 (ver 1) - create 1
+[tid:1079025][digest_replay_and_optimize():1121] [FILE] inum 2 (ver 0) - In Hash 
+[tid:1079025][digest_replay_and_optimize():1077] [INODE] inum 150002 (ver 1) - create 1
+[tid:1079025][digest_replay_and_optimize():1121] [FILE] inum 2 (ver 0) - In Hash 
+[tid:1079025][digest_replay_and_optimize():1077] [INODE] inum 150003 (ver 1) - create 1
+[tid:1079025][digest_replay_and_optimize():1121] [FILE] inum 2 (ver 0) - In Hash 
+
+8
+SEQ_WRITE throughput: 818.348 MB
+SEQ_WRITE throughput: 845.294 MB
+
+SEQ_WRITE throughput: 1734.589 MB
+SEQ_WRITE throughput: 1711.589 MB
+
+
+
+
+----------------------- kernfs statistics
+digest       : 7132.960 ms
+- replay     : 0.000 ms
+- apply      : 0.000 ms
+-- inode digest : 0.096 ms
+-- dir digest   : 0.000 ms
+-- file digest  : 6366.890 ms
+- persist    : 11.860 ms
+n_digest        : 786464
+n_digest_skipped: 0 (0.0 %)
+--------------------------------------
+
+----------------------- kernfs statistics
+digest       : 8430.476 ms
+- replay     : 0.000 ms
+- apply      : 0.000 ms
+-- inode digest : 0.078 ms
+-- dir digest   : 0.000 ms
+-- file digest  : 7525.579 ms
+- persist    : 0.031 ms
+n_digest        : 787684
+n_digest_skipped: 0 (0.0 %)
+--------------------------------------
+
+----------------------- kernfs statistics
+digest       : 3224.362 ms
+- replay     : 298.813 ms
+- apply      : 2242.422 ms
+-- inode digest : 0.040 ms
+-- dir digest   : 0.000 ms
+-- file digest  : 2242.381 ms
+- persist    : 0.023 ms
+n_digest        : 786458
+n_digest_skipped: 0 (0.0 %)
+--------------------------------------
+
+
+----------------------- kernfs statistics
+digest       : 3401.898 ms
+- replay     : 413.876 ms
+- apply      : 2229.642 ms
+-- inode digest : 0.086 ms
+-- dir digest   : 0.000 ms
+-- file digest  : 2229.554 ms
+- persist    : 13.133 ms
+n_digest        : 786478
+n_digest_skipped: 0 (0.0 %)
+--------------------------------------

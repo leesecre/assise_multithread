@@ -1,0 +1,252 @@
+[tid:973335][device_init():50] dev id 1
+dev-dax engine is initialized: dev_path /dev/dax0.0 size 102400 MB
+[tid:973335][device_init():50] dev id 2
+[tid:973335][device_init():50] dev id 3
+[tid:973335][cache_init():296] allocating 262144 blocks for DRAM read cache
+[tid:973335][read_superblock():507] [dev 1] superblock: size 10484736 nblocks 10457329 ninodes 300000 inodestart 2 bmap start 27087 datablock_start 27407
+fetching node's IP address..
+Process pid is 973335
+ip address on interface 'lo' is 127.0.0.1
+cluster settings:
+[tid:973335][register_peer_log():245] assigning peer (ip: 127.0.0.1 pid: 0) to log id 0
+--- node 0 - ip:127.0.0.1
+Connecting to KernFS instance 0 [ip: 127.0.0.1]
+[Local-Client] Creating connection (pid:973335, app_type:0, status:pending) to 127.0.0.1:12345 on sockfd 0
+[Local-Client] Creating connection (pid:973335, app_type:1, status:pending) to 127.0.0.1:12345 on sockfd 1
+In thread
+[Local-Client] Creating connection (pid:973335, app_type:2, status:pending) to 127.0.0.1:12345 on sockfd 2
+[tid:973335][init_rpc():148] awaiting remote KernFS connections
+In thread
+In thread
+SEND --> MSG_INIT [pid 0|973335]
+SEND --> MSG_INIT [pid 1|973335]
+SEND --> MSG_INIT [pid 2|973335]
+RECV <-- MSG_SHM [paths: /shm_recv_0|/shm_send_0]
+RECV <-- MSG_SHM [paths: /shm_recv_1|/shm_send_1]
+RECV <-- MSG_SHM [paths: /shm_recv_2|/shm_send_2]
+[tid:973369][add_peer_socket():63] found socket 0
+[tid:973371][add_peer_socket():63] found socket 2
+[tid:973370][add_peer_socket():63] found socket 1
+[tid:973369][_find_peer():176] trying to find peer with ip 127.0.0.1 and pid 0 (peer count: 1 | sock count: 0)
+[tid:973369][_find_peer():206] peer[0]: ip 127.0.0.1 pid 0
+[add_peer_socket():97] Established connection with 127.0.0.1 on sock:0 of type:0 and peer:0x5643be6e2f70
+start shmem_poll_loop for sockfd 0
+[tid:973371][_find_peer():176] trying to find peer with ip 127.0.0.1 and pid 0 (peer count: 1 | sock count: 1)
+[tid:973371][_find_peer():191] sockfd[0]: ip 127.0.0.1 pid 0
+[add_peer_socket():97] Established connection with 127.0.0.1 on sock:2 of type:2 and peer:0x5643be6e2f70
+start shmem_poll_loop for sockfd 2
+[tid:973370][_find_peer():176] trying to find peer with ip 127.0.0.1 and pid 0 (peer count: 1 | sock count: 2)
+[tid:973370][_find_peer():191] sockfd[0]: ip 127.0.0.1 pid 0
+[add_peer_socket():97] Established connection with 127.0.0.1 on sock:1 of type:1 and peer:0x5643be6e2f70
+start shmem_poll_loop for sockfd 1
+[tid:973335][rpc_bootstrap():909] peer send: |bootstrap |973335
+[tid:973369][signal_callback():1371] received rpc with body: |bootstrap |1 on sockfd 0
+[signal_callback():1384] Assigned LibFS ID=1
+MLFS cluster initialized
+[tid:973335][init_log():148] end of the log 13ffc00
+init log dev 1 start_blk 15727617 end 20970496
+[tid:973335][ialloc():650] get inode - inum 1
+[tid:973335][init_fs():462] LibFS is initialized on dev 1
+
+[tid:973335][device_init():50] dev id 1
+dev-dax engine is initialized: dev_path /dev/dax0.0 size 102400 MB
+[tid:973335][device_init():50] dev id 2
+[tid:973335][device_init():50] dev id 3
+[tid:973335][cache_init():296] allocating 262144 blocks for DRAM read cache
+[tid:973335][read_superblock():507] [dev 1] superblock: size 10484736 nblocks 10457329 ninodes 300000 inodestart 2 bmap start 27087 datablock_start 27407
+fetching node's IP address..
+Process pid is 973335
+ip address on interface 'lo' is 127.0.0.1
+cluster settings:
+[tid:973335][register_peer_log():245] assigning peer (ip: 127.0.0.1 pid: 0) to log id 0
+--- node 0 - ip:127.0.0.1
+Connecting to KernFS instance 0 [ip: 127.0.0.1]
+[Local-Client] Creating connection (pid:973335, app_type:0, status:pending) to 127.0.0.1:12345 on sockfd 0
+[Local-Client] Creating connection (pid:973335, app_type:1, status:pending) to 127.0.0.1:12345 on sockfd 1
+In thread
+[Local-Client] Creating connection (pid:973335, app_type:2, status:pending) to 127.0.0.1:12345 on sockfd 2
+In thread
+[tid:973335][init_rpc():148] awaiting remote KernFS connections
+In thread
+SEND --> MSG_INIT [pid 1|973335]
+SEND --> MSG_INIT [pid 0|973335]
+SEND --> MSG_INIT [pid 2|973335]
+RECV <-- MSG_SHM [paths: /shm_recv_3|/shm_send_3]
+RECV <-- MSG_SHM [paths: /shm_recv_4|/shm_send_4]
+RECV <-- MSG_SHM [paths: /shm_recv_5|/shm_send_5]
+[tid:973429][add_peer_socket():63] found socket 0
+[tid:973430][add_peer_socket():63] found socket 1
+[tid:973431][add_peer_socket():63] found socket 2
+[tid:973429][_find_peer():176] trying to find peer with ip 127.0.0.1 and pid 0 (peer count: 1 | sock count: 0)
+[tid:973429][_find_peer():206] peer[0]: ip 127.0.0.1 pid 0
+[add_peer_socket():97] Established connection with 127.0.0.1 on sock:0 of type:0 and peer:0x55fbdd1c3170
+start shmem_poll_loop for sockfd 0
+[tid:973430][_find_peer():176] trying to find peer with ip 127.0.0.1 and pid 0 (peer count: 1 | sock count: 1)
+[tid:973430][_find_peer():191] sockfd[0]: ip 127.0.0.1 pid 0
+[add_peer_socket():97] Established connection with 127.0.0.1 on sock:1 of type:1 and peer:0x55fbdd1c3170
+start shmem_poll_loop for sockfd 1
+[tid:973431][_find_peer():176] trying to find peer with ip 127.0.0.1 and pid 0 (peer count: 1 | sock count: 2)
+[tid:973431][_find_peer():191] sockfd[0]: ip 127.0.0.1 pid 0
+[add_peer_socket():97] Established connection with 127.0.0.1 on sock:2 of type:2 and peer:0x55fbdd1c3170
+start shmem_poll_loop for sockfd 2
+[tid:973335][rpc_bootstrap():909] peer send: |bootstrap |973335
+[tid:973429][signal_callback():1371] received rpc with body: |bootstrap |2 on sockfd 0
+[signal_callback():1384] Assigned LibFS ID=2
+MLFS cluster initialized
+[tid:973335][init_log():148] end of the log 18ffc00
+init log dev 1 start_blk 20970497 end 26213376
+[tid:973335][ialloc():650] get inode - inum 1
+[tid:973335][init_fs():462] LibFS is initialized on dev 1
+Total file size: 4096B
+io size: 4096B
+# of thread: 1
+[tid:973335][mlfs_posix_mkdir():419] [POSIX] mkdir(/mlfs/)
+[tid:973335][namex():274] namex: path /mlfs/, parent 1, name mlfs
+[tid:973335][dir_lookup():50] dir_lookup: de_cache miss for dir 1, name mlfs
+[tid:973335][dir_lookup():59] dir_lookup: starting search for name mlfs (dirs: cached 2 total 3)
+[tid:973335][readi():2144] read stats: inode[inum 1 isize 96] size_small 32 size_prepended 0 size_aligned 0 size_appended 0
+[tid:973335][do_unaligned_read():1254] unaligned read for : inum 1, offset 64, io_size 32 type: local
+[tid:973335][bmap():883] mlfs_ext_get_blocks: start
+[tid:973335][mlfs_ext_binsearch():714]   -> 0:6b0f:[0]1
+[tid:973335][bmap():885] mlfs_ext_get_blocks: ret 1
+[tid:973335][readi():2186] finishing read. iodone: 32
+[tid:973335][iget():805] allocate new inode by iget 2
+[tid:973335][ialloc():650] get inode - inum 2
+[tid:973335][mlfs_object_create():444] mlfs_object_create: already found in dir /mlfs/
+[tid:973335][add_to_loghdr():1302] add_to_loghdr [INODE_UDPATE] inum 2
+[tid:973335][commit_log():1147] pid 973335 [commit] log block 20970497 nr_log_blocks 2
+[tid:973335][commit_log():1149] pid 973335 [commit] current header 20970497 next header 20970499
+[tid:973335][persist_log_inode():678] inum 2 offset 0 @ blockno 13ffc02
+[tid:973335][persist_log_header():495] pid 973335 [log header] inuse 8121 blkno 20970497 next_hdr_blockno 20970499
+[tid:973335][mlfs_posix_open():107] [POSIX] open(/mlfs//file0-0) O_CREAT:64
+[tid:973335][namex():274] namex: path /mlfs//file0-0, parent 1, name file0-0
+[tid:973335][dir_lookup():50] dir_lookup: de_cache miss for dir 2, name file0-0
+[tid:973335][dir_lookup():59] dir_lookup: starting search for name file0-0 (dirs: cached 2 total 3)
+[tid:973335][readi():2144] read stats: inode[inum 2 isize 96] size_small 32 size_prepended 0 size_aligned 0 size_appended 0
+[tid:973335][do_unaligned_read():1254] unaligned read for : inum 2, offset 64, io_size 32 type: local
+[tid:973335][bmap():883] mlfs_ext_get_blocks: start
+[tid:973335][mlfs_ext_binsearch():714]   -> 0:6b10:[0]1
+[tid:973335][bmap():885] mlfs_ext_get_blocks: ret 1
+[tid:973335][readi():2186] finishing read. iodone: 32
+[tid:973335][iget():805] allocate new inode by iget 150000
+[tid:973335][ialloc():650] get inode - inum 150000
+[tid:973335][dir_lookup():91] dir_lookup: did not find file0-0 in dir 2
+[tid:973335][icreate():704] finding empty inode number in slice(start:300000 size:300000)
+[tid:973335][icreate():707] creating inode with inum 300000
+[tid:973335][ialloc():650] get inode - inum 300000
+[tid:973335][add_to_loghdr():1302] add_to_loghdr [INODE_CREATE] inum 300000
+[tid:973335][mlfs_object_create():494] create /mlfs//file0-0 - inum 300000
+[tid:973335][dir_add_entry():259] adding new dirent to dir inode 2: file0-0 ~ 300000 at offset 96
+[tid:973335][add_to_log():2204] add to log: inum 2 offset 96 size 32
+[tid:973335][add_to_log():2216] adding to loghdr
+[tid:973335][add_to_loghdr():1302] add_to_loghdr [DIR_ADD] inum 2
+[tid:973335][add_to_log():2221] add to loghdr done
+[tid:973335][add_to_log():2223] DEBUG off+size 128 ip->size 96
+[tid:973335][add_to_log():2226] DEBUG setting ip->size to 128
+[tid:973335][commit_log():1147] pid 973335 [commit] log block 20970499 nr_log_blocks 3
+[tid:973335][commit_log():1149] pid 973335 [commit] current header 20970499 next header 20970502
+[tid:973335][persist_log_inode():678] inum 300000 offset 0 @ blockno 13ffc04
+[tid:973335][persist_log_file():827] inum 2 offset 96 @ blockno 20970501 (partial io_size=32)
+[tid:973335][persist_log_header():495] pid 973335 [log header] inuse 8121 blkno 20970499 next_hdr_blockno 20970502
+[tid:973335][mlfs_posix_open():124] create file /mlfs//file0-0 - inum 300000
+[tid:973335][mlfs_file_alloc():73] creating fd: 0 | ref: 1
+[tid:973335][mlfs_posix_open():154] open file /mlfs//file0-0 inum 300000 fd 0
+thread 0 start - file: /mlfs//file0-0
+[tid:973450][mlfs_posix_write():281] [POSIX] write(fd=0, size=4096)
+[tid:973450][mlfs_file_write():240] +++ start transaction
+[tid:973450][add_to_log():2204] add to log: inum 300000 offset 0 size 4096
+[tid:973450][add_to_log():2216] adding to loghdr
+[tid:973450][add_to_loghdr():1302] add_to_loghdr [FILE] inum 300000
+[tid:973450][add_to_log():2221] add to loghdr done
+[tid:973450][add_to_log():2223] DEBUG off+size 4096 ip->size 0
+[tid:973450][add_to_log():2226] DEBUG setting ip->size to 4096
+[tid:973450][commit_log():1147] pid 973335 [commit] log block 20970502 nr_log_blocks 2
+[tid:973450][commit_log():1149] pid 973335 [commit] current header 20970502 next header 20970504
+[tid:973450][persist_log_file():924] inum 300000 offset 0 size 4096 @ blockno 20970503 (aligned)
+[tid:973450][persist_log_header():495] pid 973335 [log header] inuse 8121 blkno 20970502 next_hdr_blockno 20970504
+[tid:973450][mlfs_file_write():345] --- end transaction
+do_sync
+[tid:973450][mlfs_posix_fsync():763] [POSIX] fsync(fd=1000000)
+[tid:973335][mlfs_posix_close():402] [POSIX] close(fd=0)
+[tid:973335][mlfs_posix_close():410] close file inum 300000 fd 0
+--------------- stats
+        sum: 0.364 msec (364.00 usec)
+        avg: 0.364 msec (364.00 usec)
+        min: 0.364 msec (364.00 usec)
+        max: 0.364 msec (364.00 usec)
+        std: 0.000 msec (0.00 usec)
+        99 percentile    : 0.364 msec (364.00 usec)
+        99.9 percentile  : 0.000 msec (0.00 usec)
+        99.99 percentile : 5.057 msec (5057.00 usec)
+        99.999 percentile: 0.000 msec (0.00 usec)
+Aggregated throughput: 0.000 MB
+--------------------------------------------
+----------- total stats
+        sum: 5.057 msec (5057.00 usec)
+        avg: 5.057 msec (5057.00 usec)
+        min: 5.057 msec (5057.00 usec)
+        max: 5.057 msec (5057.00 usec)
+        std: 0.000 msec (0.00 usec)
+        99 percentile    : 5.057 msec (5057.00 usec)
+        99.9 percentile  : 0.000 msec (0.00 usec)
+        99.99 percentile : 0.000 msec (0.00 usec)
+        99.999 percentile: 0.000 msec (0.00 usec)
+[tid:973335][shutdown_log():196] Shutting down log
+[tid:973335][shutdown_log():237] [L] Digesting remaining log data
+[set_digesting():94] set log digesting state
+[make_digest_request_async():1554] make_digest_request_sync
+[tid:973335][make_digest_request_sync():1601] sanity check: n_digest (local) 3 n_digest (remote) 3
+[make_digest_request_sync():1633] |digest |2|1|3|20970497|20970497|0
+[tid:973335][rpc_forward_msg():896] peer send: |digest |2|1|3|20970497|20970497|0
+[tid:973430][signal_callback():1371] received rpc with body: |complete |2|1|3|20970504|0|0| on sockfd 1
+[signal_callback():1443] peer recv: |complete |2|1|3|20970504|0|0|
+[handle_digest_response():1668] |complete |2|1|3|20970504|0|0|
+[tid:973430][handle_digest_response():1673] digest is done correctly
+[tid:973430][handle_digest_response():1674] -----------------------------------
+[tid:973430][handle_digest_response():1681] g_fs_log->start_blk 13ffc01, next_hdr_of_digested_hdr 13ffc08
+[tid:973430][handle_digest_response():1711] clear digesting state for log
+[clear_digesting():108] clear log digesting state
+[tid:973335][wait_on_peer_digesting():235] waiting till peer finishes digesting
+Shutdown_fs 973335
+
+----------------------- libfs statistics
+Log dev id        : 1
+wait on digest    : 0.000 ms
+inode allocation  : 0.010 ms
+bcache search     : 0.004 ms
+search l0 tree    : 0.001 ms
+search lsm tree   : 0.025 ms
+log commit        : 0.099 ms
+  log writes      : 0.077 ms
+  loghdr writes   : 0.020 ms
+read data blocks  : 0.000 ms
+wait on read rpc  : 0.000 ms
+directory search  : 0.000 ms
+temp_debug        : 0.043 ms
+rsync coalesce    : 0.000 ms
+rsync interval    : 0.000 ms
+rdma write        : 0.000 ms
+lease rpc wait    : 0.000 ms
+lease lpc wait    : 0.000 ms
+   contention     : 0.000 ms
+   digestion      : 0.000 ms
+lease revoke wait : 0.001 ms
+n_rsync           : 0
+n_rsync_skip      : 0
+n_rsync_blks      : 0
+n_rsync_blks_skip : 0
+rsync ops         : 0
+lease rpcs        : 0
+lease lpcs        : 0
+search lsm tree (tsc)  : 51168 
+read data blocks (tsc) : 76 
+wait on digest (nr)   : 0 
+search lsm tree (nr)  : 2 
+log commit (nr)       : 3 
+log writes (nr)       : 0 
+read data blocks (nr) : 2 
+read rpc (nr) : 0 
+directory search hit  (nr) : 0 
+directory search miss (nr) : 0 
+directory search notfound (nr) : 0 
+--------------------------------------

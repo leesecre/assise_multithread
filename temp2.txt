@@ -1,0 +1,47 @@
+----------------------- kernfs statistics
+digest       : 13658.023 ms
+- replay     : 0.000 ms
+- apply      : 0.000 ms
+-- inode digest : 0.000 ms
+-- dir digest   : 0.000 ms
+-- file digest  : 12047.966 ms
+- persist    : 25.190 ms
+n_digest        : 1835037
+n_digest_skipped: 0 (0.0 %)
+--------------------------------------
+
+----------------------- kernfs statistics
+digest       : 13609.745 ms
+- replay     : 0.000 ms
+- apply      : 0.000 ms
+-- inode digest : 0.000 ms
+-- dir digest   : 0.000 ms
+-- file digest  : 11951.098 ms
+- persist    : 0.003 ms
+n_digest        : 1833808
+n_digest_skipped: 0 (0.0 %)
+--------------------------------------
+
+----------------------- kernfs statistics
+digest       : 6448.723 ms
+- replay     : 658.211 ms
+- apply      : 4338.503 ms
+-- inode digest : 0.000 ms
+-- dir digest   : 0.000 ms
+-- file digest  : 4338.502 ms
+- persist    : 0.003 ms
+n_digest        : 1835051
+n_digest_skipped: 0 (0.0 %)
+--------------------------------------
+
+----------------------- kernfs statistics
+digest       : 6982.767 ms
+- replay     : 820.652 ms
+- apply      : 4548.931 ms
+-- inode digest : 0.000 ms
+-- dir digest   : 0.000 ms
+-- file digest  : 4548.930 ms
+- persist    : 29.290 ms
+n_digest        : 1835038
+n_digest_skipped: 0 (0.0 %)
+--------------------------------------
